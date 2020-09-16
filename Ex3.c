@@ -8,49 +8,49 @@ int main(int argc, char *argv[]) {
 	int iResult, a = 10, b = 8, c = 6, d = 5, e = 2;
 	
 	iResult = a - b - c - d;
-	printf("\na - b - c - d = %d" , iResult);
+	printf("\n1.a - b - c - d = %d" , iResult);
 	
 	iResult = a - b + c - d;
-	printf("\na - b + c - d = %d" , iResult);
+	printf("\n2.a - b + c - d = %d" , iResult);
 	
 	iResult = a + b / c / d;
-	printf("\na + b / c / d = %d" , iResult);
+	printf("\n3.a + b / c / d = %d" , iResult);
 	
 	iResult = a + b / c * d;
-	printf("\na + b / c * d = %d" , iResult);
+	printf("\n4.a + b / c * d = %d" , iResult);
 	
 	iResult = a / b * c * d;
-	printf("\na / b * c * d = %d" , iResult);
+	printf("\n5.a / b * c * d = %d" , iResult);
 	
 	iResult = a % b / c * d;
-	printf("\na % b / c * d = %d" , iResult);
+	printf("\n6.a % b / c * d = %d" , iResult);
 	
 	iResult = a % b % c % d;
-	printf("\na % b % c % d = %f" , iResult);
+	printf("\n7.a %% b %% c %% d = %f" , iResult);
 	
 	iResult = a - (b - c) - d;
-	printf("\na - (b - c) - d = %d" , iResult);
+	printf("\n8.a - (b - c) - d = %d" , iResult);
 	
 	iResult = (a - (b - c )) - d;
-	printf("\n(a - (b - c)) - d = %d" , iResult);
+	printf("\n9.(a - (b - c)) - d = %d" , iResult);
 	
 	iResult = a - (b - (c - d));
-	printf("\na - (b - (c - d)) = %d" , iResult);
+	printf("\n10.a - (b - (c - d)) = %d" , iResult);
 	
 	iResult = a - ((b - c) - d);
-	printf("\na - ((b - (c - d) = %d" , iResult);
+	printf("\n11.a - ((b - (c - d) = %d" , iResult);
 	
 	iResult = a % (b % c) * d * e;
-	printf("\na % (b % c) * d * e = %d" , iResult);
+	printf("\n12.a %% (b %% c) * d * e = %d" , iResult);
 	
 	iResult = a + (b - c) * d - e;
-	printf("\na + (b - c) * d - e = %d" , iResult);
+	printf("\n13.a + (b - c) * d - e = %d" , iResult);
 	
 	iResult = (a + b) * c + d * e;
-	printf("\n(a + b) * c + d * e = %d" , iResult);
+	printf("\n14.(a + b) * c + d * e = %d" , iResult);
 	
 	iResult = (a + b) * (c / d) % e;
-	printf("\n(a + b) * (c / d) % e = %d" , iResult);
+	printf("\n15.(a + b) * (c / d) %% e = %d" , iResult);
 	
 	return 0;
 }
